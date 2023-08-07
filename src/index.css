@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: black !important;
 }
 
 code {
@@ -13,9 +14,37 @@ code {
 }
 
 
-.footbgcolor{
-background: rgba(68, 68, 68, 1);
+.footbgcolor {
+  background: rgba(68, 68, 68, 1);
 }
-.inputcolor{
+
+.inputcolor {
   background: none !important;
 }
+
+/* ---------------------------------------------------------------------------- */
+/* header */
+.iconrotate {
+  transform: rotate(-70deg);
+}
+
+.headtextcolor {
+  color: #c1c1c1 !important;
+  border-color: rgba(163, 170, 208, 1) !important;
+  ;
+}
+
+.homecovertext {
+  top: 10%;
+}
+.cardposition{
+  bottom: -5%;
+}
+
+.color{
+  background: -webkit-linear-gradient(90deg,rgba(229, 230, 232, 0)  -53.62%, rgba(255, 255, 255, 1) 69.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* header */
