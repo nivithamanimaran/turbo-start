@@ -12,7 +12,7 @@ function Navbar(props) {
     }, [])
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-dark py-0  border-bottom ">
+            <nav className="navbar navbar-expand-lg bg-dark py-0  ">
                 <div className="container px-4 px-md-4 px-lg-5">
                     <a className="navbar-brand pull-right " href="/">
                         <img src={Logo} className='img-fluid col-6 col-md-10 col-lg-12' alt='logo' />
